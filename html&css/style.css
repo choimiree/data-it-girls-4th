@@ -1,0 +1,27 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+body{
+    background-color: pink;
+    font-family: 'Inconsolata', monospace;
+}
+h1{
+    border-bottom:5px solid blueviolet;
+    padding:20px;
+}
+h1 a{
+    text-decoration:none;
+}
+ol{
+    border-right:10px dotted burlywood;
+    margin-top: 0;
+    padding-top:10px;
+}
+#container{
+    display:grid;
+    grid-template-columns:100px 1fr;
+}
+h1{
+    margin-bottom:0;
+    font-family: 'Inconsolata', monospace;
+}
+</style>
